@@ -345,6 +345,11 @@ textarea.input {
   font-weight: 900;
   color: #1f1313;
 }
+.home-content h2 {
+
+  font-weight: 900;
+  color: #1f1313;
+}
 
 .home-content h4 {
   color: #000000;
@@ -457,7 +462,7 @@ textarea.input {
 }
 
 #speakers li {
-  list-style-type: disc;
+  list-style-type: disc !important;
   font-weight: 500;
 
 } 
