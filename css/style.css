@@ -449,12 +449,21 @@ textarea.input {
   background-color: #F9F9FA;
 }
 
+
 .speaker {
   position: relative;
   cursor: pointer;
   margin-bottom: 30px;
 }
-.speaker li a {
+
+#speakers li {
+  list-style-type: disc;
+  font-weight: 500;
+
+} 
+ 
+#speakers li a {
+  list-style-type: none;
   color: #0b0f28;
   font-weight: 700;
 }
