@@ -26,7 +26,9 @@
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
-<body>
+<body onload="preLoaderHandler()">
+
+	<div id="loader"></div>
 
 	<!-- Header -->
 	<header id="header" class="transparent-navbar">
@@ -827,8 +829,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>
 	  AOS.init();
+	  var preloader = document.getElementById('loader');
+	function preLoaderHandler(){
+		preloader.style.display = 'none';
+	}
 	</script>
-
 </body>
 
 </html>
