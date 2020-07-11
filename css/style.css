@@ -464,7 +464,9 @@ textarea.input {
 /*=========================================================
 	SPEAKERS
 ===========================================================*/
-
+#mst {
+  background-color: #F9F9FA;
+}
 #speakers {
   background-color: #F9F9FA;
 }
@@ -812,7 +814,12 @@ textarea.input {
 	CONTACT
 ===========================================================*/
 
+#contact{
+  background-color: #F9F9FA;
+}
+
 #contact.section {
+ 
   padding-bottom: 0px;
 }
 
