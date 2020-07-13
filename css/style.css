@@ -681,6 +681,10 @@ textarea.input {
   color: #3617e6;
 }
 
+#mst .card{
+  justify-content: center;
+  align-items: center;
+}
 /*=========================================================
 	EVENTS
 ===========================================================*/
@@ -815,7 +819,7 @@ textarea.input {
 ===========================================================*/
 
 #contact{
-  background-color: #F9F9FA;
+  background-color  : #F9F9FA;
 }
 
 #contact.section {
