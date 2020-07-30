@@ -13,8 +13,12 @@ body {
   color: #444;
   overflow-x: hidden;
 }
-
-
+.card-title{
+  font-size: 30px;
+}
+.card-text b{
+  font-size: 18px;
+}
 /*----------------------------*\
 	Loader
 \*----------------------------*/
