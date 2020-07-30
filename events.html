@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>eHacon	</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins|Modak&display=swap|Coda+Caption:wght@800|Playfair+Display&display=swap:400,700,900" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body onload="preLoaderHandler()">
+    <div id="loader"></div>
+
+	<!-- Header -->
+	<header id="header" class="transparent-navbar">
+		<!-- container -->
+		<div class="container">
+			<!-- navbar header -->
+			<div class="navbar-header">
+				<!-- Logo -->
+				<div class="navbar-brand">
+					<a class="logo" href="index.html">
+						<img class="logo-img" src="./img/logo.png" alt="logo">
+						<img class="logo-alt-img" src="./img/logo-alt.png" alt="logo">
+					</a>
+				</div>
+                <!-- /Logo -->
+				<!-- Mobile toggle -->
+				<button class="navbar-toggle">
+						<i class="fa fa-bars"></i>
+					</button>
+				<!-- /Mobile toggle -->
+			</div>
+			<!-- /navbar header -->
+
+			<!-- Navigation -->
+			<nav id="nav">
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home" style="color: black;">Home</a></li>
+				</ul>
+			</nav>
+			<!-- /Navigation -->
+		</div>
+		<!-- /container -->
+	</header>
+	<!-- /Header -->
+<!-- Contact -->
+<div id="contact" data-aos="fade-up"   data-aos-duration="3000" class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <!-- section title -->
+            <div class="section-title">
+                <h3 class="title"><span>Contact</span> <span style="color: #3617e6;">Info</span></h3>
+            </div>
+            <!-- /section title -->
+
+            <!-- contact -->
+            <div class="col-sm-4">
+                <div class="contact">
+                    <h3>Address</h3>
+                    <p>Salt Lake Electronics Complex, Y-12, Gurukul, Street Number 18, EP Block, Sector V, Bidhannagar, Kolkata, West Bengal 700091</p>
+                </div>
+            </div>
+            <!-- /contact -->
+
+            <!-- contact -->
+            <div class="col-sm-4">
+                <div class="contact">
+                    <h3>Phone</h3>
+                    <p>+91 93397 70502</p>
+                </div>
+            </div>
+            <!-- /contact -->
+
+            <!-- contact -->
+            <div class="col-sm-4">
+                <div class="contact">
+                    <h3>Email</h3>
+                    <a href="#">ehacon@iemcal.com</a>
+                </div>
+            </div>
+            <!-- /contact -->
+
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /Contact -->
+
+<!-- Footer -->
+<footer id="footer">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+
+            <!-- footer logo -->
+            <div class="col-md-4 col-md-push-4">
+                <div class="footer-brand">
+                    <a class="logo" href="index.html">
+                        <img class="logo-img" src="./img/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <!-- /footer logo -->
+
+            <!-- contact social -->
+            <div class="col-md-4 col-md-push-4">
+                <div class="contact-social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa fa-linkedin"></i></a>
+                </div>
+            </div>
+            <!-- /contact social -->
+
+            <!-- copyright -->
+            <div class="col-md-4 col-md-pull-8">
+                <span class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="https://github.com/divyake" target="_blank">Divya </a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+            </div>
+            <!-- /copyright -->
+
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</footer>
+<!-- /Footer -->
+
+<!-- jQuery Plugins -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script src="js/google-map.js"></script>
+<script src="js/jquery.countTo.js"></script>
+<script src="js/main.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+  var preloader = document.getElementById('loader');
+function preLoaderHandler(){
+    preloader.style.display = 'none';
+}
+</script>
+</body>
+
+</html>
